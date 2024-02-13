@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "es6",
+        "strict": true,
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "./dist/esm",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node"
+    },
+    "include": [
+        "./lib/**/*.ts"
+    ]
+}
