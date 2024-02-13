@@ -18,16 +18,21 @@ This package includes the source code (modified).
 - [math-io/float64-from-words](https://github.com/math-io/float64-from-words)
 - [kgryte/utils-is-little-endian](https://github.com/kgryte/utils-is-little-endian)
 
+## Installation
+
+``` bash
+$ npm install @toshiara/sinpi
+```
+
 
 ## Usage
 
-### 
 ``` javascript
 // for CommonJs
-const { sinpi } = require('sinpi');
+const { sinpi } = require('@toshiara/sinpi');
 
 // for ES Modules
-import { sinpi } from 'sinpi';
+import { sinpi } from '@toshiara/sinpi';
 ```
 
 ### sinpi(x)
