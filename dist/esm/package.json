@@ -1,9 +1,11 @@
 {
   "name": "@toshiara/sinpi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Computes sin(πx).",
   "scripts": {
     "build": "tsc -p . && tsc -p tsconfig.cjs.json && tsconfig-to-dual-package",
+    "link": "npm link @toshiara/sinpi",
+    "unlink": "npm unlink @toshiara/sinpi",
     "test": "node --experimental-vm-modules node_modules/.bin/jest"
   },
   "keywords": [
@@ -19,5 +21,10 @@
     "tsconfig-to-dual-package": "^1.2.0",
     "typescript": "^5.3.3"
   },
-  "type": "module"
+  "type": "module",
+  "homepage": "https://github.com/toshi-ara/sinpi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toshi-ara/sinpi"
+  }
 }
